@@ -1,0 +1,9 @@
+{
+  "app": {
+    "title": "Trường Đại học Khoa Học",
+
+    "headerColor": "#ffffff",
+    "textColor": "black",
+    "statusBar": "normal"
+  }
+}

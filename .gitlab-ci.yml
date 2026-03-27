@@ -1,0 +1,9 @@
+include:
+  - component: $CI_SERVER_FQDN/ZaloMiniPrograms/ci-templates/mini-app@main
+    inputs:
+      service_name: '$CI_PROJECT_NAME'
+      zalo_app_id: '$ZALO_APP_ID'
+      zalo_app_secret: '$ZALO_APP_SECRET'
+      zalo_refresh_token: '$ZALO_REFRESH_TOKEN'
+      zalo_mini_app_id: '$ZALO_MINI_APP_ID'
+      group_ci_api_token: '$GROUP_CI_API_TOKEN'
