@@ -54,14 +54,14 @@ Dự án sử dụng các công nghệ mới nhất:
 
 ### Sử dụng Zalo Mini App Extension
 
-1. Cài đặt [Visual Studio Code](https://code.visualstudio.com/download) và [Zalo Mini App Extension](https://mini.zalo.me/docs/dev-tools).
-2. Nhấp vào **Create Project** > Chọn template **ZaUI Education** > Đợi khởi tạo dự án.
+1. Cài đặt [Visual Studio Code](https://code.visualstudio.com/download) và [Zalo Mini App Extension](https://miniapp.zaloplatforms.com/documents/devtools).
+2. Nhấp vào **Create Project** > Chọn template **ZaUI Uni** > Đợi khởi tạo dự án.
 3. Cấu hình **App ID** và **Install Dependencies**, sau đó vào bảng **Run** > chọn **Start** để bắt đầu phát triển 🚀
 
 ### Sử dụng Zalo Mini App CLI
 
 1. [Cài đặt Node JS](https://nodejs.org/en/download/).
-2. [Cài đặt Mini App DevTools CLI](https://mini.zalo.me/docs/dev-tools/cli/intro/).
+2. [Cài đặt Mini App DevTools CLI](https://miniapp.zaloplatforms.com/documents/devtools/cli/intro/).
 3. Tải xuống hoặc clone repository này.
 4. Cài đặt thư viện:
    ```bash
@@ -75,7 +75,7 @@ Dự án sử dụng các công nghệ mới nhất:
 
 ## Triển khai (Deployment)
 
-1. Tạo Mini App ID mới (Tham khảo [Hướng dẫn tạo Mini App](https://mini.zalo.me/tutorial/coffee-shop)).
+1. Tạo Mini App ID mới (Tham khảo [Hướng dẫn tạo Mini App](https://miniapp.zaloplatforms.com/documents/tutorial/coffee-shop)).
 2. Triển khai code lên Zalo bằng ID vừa tạo.
 
    Nếu dùng `zmp-cli`:
@@ -126,7 +126,7 @@ src/
 └── app.tsx               # Root — routes, bottom navigation, QueryClientProvider
 ```
 
-- **`app-config.json`**: [Cấu hình Zalo Mini App](https://mini.zalo.me/documents/intro/getting-started/app-config/).
+- **`app-config.json`**: [Cấu hình Zalo Mini App](https://miniapp.zaloplatforms.com/documents/intro/getting-started/app-config/).
 
 ## Hướng dẫn tích hợp (Recipes)
 
