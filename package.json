@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "zmp start",
+    "build": "vite build . --outDir www --emptyOutDir",
     "deploy": "zmp deploy",
     "build:css": "postcss src/css/tailwind.css -o src/css/styles.css",
     "format": "prettier --write \"src/**/*.{ts,tsx}\""
@@ -23,13 +24,13 @@
   "homepage": "https://gitlab.com/teik_1b/mini-app-education#readme",
   "dependencies": {
     "@tanstack/react-query": "^5.95.0",
-    "axios": "1.13.6",
+    "axios": "1.21.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-router-dom": "^6.22.3",
+    "react-router-dom": "^7.18.0",
     "react-transition-group": "^4.4.5",
-    "zmp-sdk": "^2.51.1",
-    "zmp-ui": "^1.11.14"
+    "zmp-sdk": "^2.53.3",
+    "zmp-ui": "^1.11.15-2"
   },
   "devDependencies": {
     "@tailwindcss/vite": "^4.2.2",
